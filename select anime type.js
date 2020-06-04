@@ -16,7 +16,11 @@ optionsList.forEach(o => {
     selected.innerHTML = o.querySelector("label").innerHTML;
     
     optionsContainer.classList.remove("active");
-    
+ 
+
+   location.href=selected.innerHTML+"?&max-results=20";
+  
+     
         
   });
 });
