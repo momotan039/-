@@ -19,7 +19,7 @@ optionsList.forEach(o => {
 
   if(selected.innerHTML=="الكل"){
 
-   location.href=selected.innerHTML+"?&max-results=20";
+   location.href="انمي?&max-results=20";
     }
    
      
