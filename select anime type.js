@@ -21,7 +21,9 @@ optionsList.forEach(o => {
 
    location.href="انمي?&max-results=20";
     }
-   
+   else{
+     location.href=selected.innerHTML+"?&max-results=20";
+   }
      
      
         
