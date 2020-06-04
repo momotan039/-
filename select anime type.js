@@ -17,7 +17,8 @@ optionsList.forEach(o => {
     
     optionsContainer.classList.remove("active");
     if(selected.innerHTML=="الكل"){
-     location.href="انمي?&max-results=20";
+    selected.innerHTML=="انمي"
+location.href=selected.innerHTML+"?&max-results=20";
     }
     else{
      location.href=selected.innerHTML+"?&max-results=20";
