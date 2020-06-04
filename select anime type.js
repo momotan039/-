@@ -16,9 +16,9 @@ optionsList.forEach(o => {
     selected.innerHTML = o.querySelector("label").innerHTML;
     
     optionsContainer.classList.remove("active");
-    if(selected.innerHTML=="انمي?&max-results=20"){
+    if(selected.innerHTML=="الكل"){
 
-location.href="hhhh";
+location.href="انمي?&max-results=20";
     }
     else{
      location.href=selected.innerHTML+"?&max-results=20";
